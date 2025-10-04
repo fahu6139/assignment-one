@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* shared section */
+.shared-font {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
 .shared-color {
   color: rgba(13, 19, 33, 1);
   opacity: 0.7;
@@ -36,7 +49,7 @@
   padding-top: 32px;
 }
 
-.description {
+.hero-description {
   padding-top: 24px;
   font-size: 16px;
   font-weight: 400;
@@ -68,3 +81,44 @@
 }
 
 /* main section */
+main {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.why-web-dev {
+  padding: 80px 95px 80px 95px;
+  border: 16px;
+
+}
+
+.why-web-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-top: 75px;
+}
+
+.why-web-title h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 100%;
+  padding-bottom: 25px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.parent-paragraph {
+  padding: 48px 48px 48px 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32;
+  align-items: center;
+}
